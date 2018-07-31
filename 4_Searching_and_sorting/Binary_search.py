@@ -1,3 +1,5 @@
+#Iterative Binary Search Algorithm
+
 """You're going to write a binary search function.
 You should use an iterative approach - meaning
 using loops.
