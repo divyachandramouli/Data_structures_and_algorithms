@@ -1,4 +1,4 @@
-#Return the value of fib seq given the pos
+#Return the value of fib seq given the pos - iterative
 
 def get_fib_val(pos):
 	if (pos==0):
