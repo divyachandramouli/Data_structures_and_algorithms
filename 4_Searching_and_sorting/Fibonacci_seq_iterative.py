@@ -1,4 +1,4 @@
-#Generate fibonacci seq with index as input
+#Generate fibonacci seq with index as input - Iterative
 
 def getfib(pos):
 	
