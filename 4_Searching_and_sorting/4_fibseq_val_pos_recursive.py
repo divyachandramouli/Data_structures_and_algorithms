@@ -5,4 +5,4 @@ def get_fib(pos):
 		return pos
 	return(get_fib(pos-1)+get_fib(pos-2))
 
-	
+print(get_fib(8))
