@@ -19,3 +19,11 @@ def bubble_sorter(arr):
 
 array1=[21,4,1,3,9,20,25,6,21,14]
 print(bubble_sorter(array1))
+
+'''
+Worst and Average Case Time Complexity: O(n*n). Worst case occurs when 
+array is reverse sorted.
+
+Best Case Time Complexity: O(n). Best case occurs when array is already 
+sorted.
+'''
