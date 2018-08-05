@@ -3,9 +3,9 @@
 def bubble_sorter(arr):
 	n=len(arr)
 	i=0
-	for j in range(0,n-1):
-		for i in range(0,n-i-1):
-			#In the  ith iteration, last i elements have bubbled up
+	for j in range(0,n):
+		for i in range(0,n-j-1):
+			#In the  jth iteration, last j elements have bubbled up so leave them
 			if (arr[i]>arr[i+1]):
 				
 				arr[i],arr[i+1]=arr[i+1],arr[i]
