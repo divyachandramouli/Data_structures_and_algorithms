@@ -17,7 +17,18 @@ def merge(a,b):
 		c.extend(a[a_idx:])
 	return c
 
+def merge_sort(arr):
+	# A list of zero or one element is already sorted
+	if(len(arr)<=1):
+		return arr
+	# Split the list in half and call merge sort recursively on each half
+	left,right=merge_sort(arr[0:len(arr)//2]), merge_sort(arr[len(arr)//2:])
+	return merge(left,right)
 
+'''
 arr1=[2,6,12]
 arr2=[1,11,100]
 print(merge(arr1,arr2))
+'''
+arr1=[101,65,42,2,65,72,11,5,1,89,10,3]
+print(merge_sort(arr1))
