@@ -33,3 +33,9 @@ print(merge(arr1,arr2))
 '''
 arr1=[101,65,42,2,65,72,11,5,1,89,10,3]
 print(merge_sort(arr1))
+
+"Time Complexity in best, worst and avg case: O(nlogn)"
+"Time complexity is same in all 3 cases because merge_sort always divides "
+"array in half and takes linear time to merge the two halves"
+"SPace complexity: O(n) - extra space to copy the merged array"
+
