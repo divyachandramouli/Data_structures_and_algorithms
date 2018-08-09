@@ -23,6 +23,7 @@ def merge_sort(arr):
 		return arr
 	# Split the list in half and call merge sort recursively on each half
 	left,right=merge_sort(arr[0:len(arr)//2]), merge_sort(arr[len(arr)//2:])
+	#Merge the now sorted sublists
 	return merge(left,right)
 
 '''
