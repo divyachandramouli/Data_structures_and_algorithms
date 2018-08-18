@@ -7,11 +7,11 @@ from functools import lru_cache #Least Recently Used Cache - a decorator
 
 def fib(n):
 #Check that the input is a positive integer
-	if type(n) != int
-		raise TypeError "n must be a positive integer"
+	if type(n) != int:
+		raise TypeError ("n must be a positive integer")
 # No fraction values are accepted 
 	if n<1:
-		raise TypeError "n must be a positive integer"
+		raise TypeError ("n must be a positive integer")
 	if n==1:
 			return 1
 	if n==2:
