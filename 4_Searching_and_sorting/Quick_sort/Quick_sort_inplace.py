@@ -24,14 +24,4 @@ right=len(arr)-1
 print(arr)
 (quicksort(arr,left,right))
 print(arr)
-'''
-def quicksort(A,start,end):
-	if len(A)<=1:
-		return A
-	if(start<end):
-		p=partition(A,start,end)
-		quicksort(A,start,p-1)
-		quicksort(A,p+1,end)
-		'''
-
 
